@@ -12,13 +12,16 @@
  */
  .header{
   height: 100vh;
-  background-image: url(../assets/shoes-g.jpg);
+  background-image: url(../assets/shoes-g1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
  }
-
+ .card:hover{
+  transition: all 1s ease-in-out;
+  transform: scale(1.06);
+ }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
